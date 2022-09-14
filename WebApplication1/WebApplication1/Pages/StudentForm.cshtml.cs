@@ -21,7 +21,7 @@ namespace WebApplication1.Pages
 
             public string? LastName { get; set; }
 
-            public DateTime? DateOfBirth { get; set; }
+            public string? StudentNumber { get; set; }
 
             public Course? Course { get; set; }
 
@@ -29,7 +29,7 @@ namespace WebApplication1.Pages
 
             public int? Year { get; set; }
 
-            public int? Semester { get; set; }
+            
 
         }
         public enum Gender
@@ -37,7 +37,7 @@ namespace WebApplication1.Pages
             Male,
             Female
 
-        }        
+        }
         public enum Course
         {
             BSIS,
@@ -46,6 +46,20 @@ namespace WebApplication1.Pages
             BSCRIM,
             BSTM,
             ACT
+
+        }
+        public enum StudentNumber
+        {
+
+        }
+        public enum Year
+        { 
+
+            FirstYear,
+            SecondYear,
+            ThirdYear,
+            FourthYear,
+
 
 
         }
